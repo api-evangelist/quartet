@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.quartethealth.com/security/
+note: >-
+  Quartet Health publishes no OpenAPI or public API surface; standards below are
+  compliance/security programs the company documents on its public security page,
+  not API-protocol conformance derived from a spec.
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: security page lists SOC 2 Type I and Type II reporting
+- id: iso-27001
+  conforms: true
+  evidence: security page lists ISO 27001 (infrastructure)
+- id: hipaa
+  conforms: true
+  evidence: security page lists HIPAA/HITECH compliance and external HIPAA risk assessment
+- id: pci-dss
+  conforms: true
+  evidence: security page lists PCI Data Security Standard
+- id: fedramp
+  conforms: true
+  evidence: security page lists FedRAMP
+- id: hitrust-csf
+  conforms: true
+  evidence: security page lists HITRUST CSF mapped to AICPA Trust Service Principles

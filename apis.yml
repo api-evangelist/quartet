@@ -1,8 +1,25 @@
 aid: quartet
-name: Quartet *
-description: 'Quartet * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quartet.png
+name: Quartet Health
+description: 'Quartet Health is a value-based behavioral healthcare enablement and delivery
+  platform that identifies, engages, and connects patients with mental health services across
+  39 states. It serves health plans, health systems, and community mental health centers with
+  care coordination, patient-to-provider matching, and direct delivery of behavioral health
+  care through its own medical group, focused on whole-person care for individuals with serious
+  mental illness and other behavioral health needs. Quartet was acquired by NeuroFlow. Added
+  to the API Evangelist network as a life-sciences company profile; the public site exposes no
+  developer or API surface, but does publish a substantive security and compliance program.'
 url: https://raw.githubusercontent.com/api-evangelist/quartet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Behavioral Health
+- Mental Health
+- Healthcare
+- Care Coordination
+- Value-Based Care
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/quartet-trust-center.yml
+- type: DomainSecurity
+  url: security/quartet-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/quartet-vulnerability-disclosure.yml
+- type: Conformance
+  url: conformance/quartet-conformance.yml
+- type: Compliance
+  url: https://www.quartethealth.com/security/
+- type: WellKnown
+  url: well-known/quartet-well-known.yml
 - type: Website
-  url: http://quartethealth.com
+  url: https://www.quartethealth.com
+- type: Security
+  url: https://www.quartethealth.com/security/
+- type: PrivacyPolicy
+  url: https://www.quartethealth.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.quartethealth.com/terms-of-service/
+- type: Support
+  url: https://www.quartethealth.com/contact/
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
